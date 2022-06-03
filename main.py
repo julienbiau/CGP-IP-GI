@@ -46,4 +46,6 @@ if __name__ == '__main__':
 
     cgp.load_input_data(cgp.COLOR_RGBHSV,max_element,'../CGP-IP-DATA/lunar/images/render')
     cgp.load_output_data(cgp.COLOR_GRAYSCALE,max_element,'../CGP-IP-DATA/lunar/images/clean')
+    
+    cgp.run()
 
